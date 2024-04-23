@@ -24,7 +24,7 @@
 }
 
 .choice img:hover{
-       transition: 0.5s ease-in-out;      
+ transition: 0.5s ease-in-out;      
   cursor: pointer;
   border: 20px solid black;
 }
@@ -69,7 +69,8 @@
    
 }
 
-.result h2{
+
+.res{
     display: inline-block;
     padding: 5px 40px;
     background-color: rgb(11, 16, 56);
@@ -77,3 +78,9 @@
     color:white;
 }
 
+.won{
+    background-color: rgb(6, 201, 38);
+}
+.lose{
+    background-color: red;
+}
